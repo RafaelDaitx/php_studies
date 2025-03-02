@@ -1,5 +1,7 @@
 <?php
-require_once(realpath(MODEL_PATH . '/User.php'));
+//require_once(realpath(MODEL_PATH . '/User.php'));
+//Better way to do this below
+loadModel('User');
 
 class Login extends Model{
     public function checkLogin(){
