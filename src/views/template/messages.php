@@ -1,5 +1,6 @@
 <?php
 $errors = [];
+$message = null;
 
 if($exception) {
     $message = [

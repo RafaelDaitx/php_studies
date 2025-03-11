@@ -27,7 +27,7 @@
                         type="email"
                         id="email" 
                         name="email"
-                        class="form-control <?= $errors['email'] ? 'is-invalid' : '' ?>"
+                        class="form-control <?= isset($errors['email']) ? 'is-invalid' : '' ?>"
                         placeholder="Informe o e-mail" 
                         value="<?= $email ?? ''?>" 
                         >    
@@ -42,7 +42,7 @@
                         type="password"
                         id="password"
                         name="password"
-                        class="form-control <?= $errors['password'] ? 'is-invalid' : '' ?>"
+                        class="form-control <?= isset($errors['password']) ? 'is-invalid' : '' ?>"
                         placeholder="Informe a senha" >
                         <div class="invalid-feedback">
                             <?= $errors['password'] ?>
