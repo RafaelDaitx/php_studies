@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="assets/css/template.css">
     <title>In 'N Out</title>
 </head>
-<body class="">
+<body class="hide-sidebar">
     <header class="header">
         <div class="logo">
             <i class="icofont-travelling mr-2"></i>
@@ -38,6 +38,5 @@
                     </ul>
             </div>
             </div>
-          
         </div>
     </header>
