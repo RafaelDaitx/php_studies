@@ -16,7 +16,7 @@ if (strpos($uri, $basePath) === 0) {
 }
 
 if($uri ==='/' || $uri ===''){
-    $uri = '/login.php';
+    $uri = '/day_records.php';
 }
 
 
